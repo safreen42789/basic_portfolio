@@ -1,19 +1,63 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Sana's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./Assets/CSS/reset.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="./Assets/CSS/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
 </head>
-<body>
-    <nav class="nav-wrapper">
+<body background="./Assets/Images/regal/regal.png">
+    <div class="main">
+      <nav class="nav-wrapper">
         <p class ="name"> Sana Afreen </p>
         <a href=./index.html class= "button">About</a>
         <a href=./portfolio.html class= "button">Portfolio</a>
         <a href=./contact.html class= "button">Contact</a>
       </nav>
+      <section class="content">
+        <article class="about"> 
+          <h1 class="about-contact">Contact</h1>
+
+          <div class="container1">
+            <form action="/action_page.php">
+              <label for="name"> Name</label>
+              <input type="text" id="name" name="Name" placeholder="John Smith">
+          
+              <label for="email"> Email </label>
+              <input type="text" id="email" name="email" placeholder="example@gmail.com">
+
+              <label for="subject">Message</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+
+
+
+
+
+          
+          </article>
+          <aside class="connect">
+          <h1 class="connect-title">CONNECT WITH ME</h1>
+          <div class ="icons">
+          <a href="https://github.com/safreen42789"><img src="./Assets/Images/GitHub.png" alt="GitHub" style="width:50px;height:50px;"></a>
+          <a href="https://angel.co/sana-afreen-7"><img src="./Assets/Images/Angellist.png" alt="AngelList" style="width:50px;height:50px;"></a>
+          <a href="https://www.linkedin.com/in/sana-afreen-32072460"><img src="./Assets/Images/linkedin.png" alt="LinkedInt" style="width:50px;height:50px;"></a>
+          </div>
+        </aside>
+        
+        </section>
+        </div>
+          <footer class="page-end">
+            Copyright &#169; 2018 Sana Afreen
+          
+            
+          </footer>
 </body>
 </html>
