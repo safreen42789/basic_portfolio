@@ -10,15 +10,25 @@
   margin-right:50px;
   margin-left:200px;
 }
+.about-contact{
+  
+  display:box;
+  background-color:white;
+  padding:10px;
+  margin-top: 0px;
+  border-bottom: 4px dotted gray;
+  font-size:20px;
+}
+
 .about-title{
 display:block;
 padding:10px;
 margin-top: 0px;
-border-bottom: 4px solid gray;
+border-bottom: 4px dotted gray;
 font-family: 'News Cycle', sans-serif;
 font-size:20px;
-
 }
+
 .button{
 display: block;
 background-color: lavender;
@@ -32,63 +42,10 @@ font-family: 'News Cycle', sans-serif;
 }
 
 .button:hover{
-background-color:pink;
-}
-.connect-title{
-display:block;
-padding:10px;
-margin-top: 0px;
-border-bottom: 4px solid gray;
-font-size:20px;
-}
-.nav-wrapper{
-display:flex;
-justify-content: flex-end;
-padding: 50px;
-position:fixed;
-top:0;
-right:0;
-left:0;
-z-index:99999;
-background: white;
-
-}
-.content{
-margin-top: 200px;
-display:flex;
-width:960px;
-
+background-color:rgb(239, 239, 245);
 }
 
-.content1{
-  margin-top: 200px;
-  display:flex;
-  width:960px;
-  height:610px;
-
-  
-  }
-.main{
-border-bottom:10px solid black;
-height:900px;
-
-}
-.name {
-display: block;
-background-color: white;
-padding:32px 16px;
-margin-right:650px;
-margin-top: 0px;
-margin-bottom: 0px;
-width:20%;
-border: 2px dashed black;
-background-color:white;
-text-align:center;
-font-family: 'News Cycle', sans-serif;
-font-size: 30px;
-}
-
- .connect {
+.connect {
   margin-top:60px;
   display:block;
   background: WHITE;
@@ -100,32 +57,46 @@ font-size: 30px;
   font-family: 'News Cycle', sans-serif;
   font-size:15px;
 }
-.page-end{
+
+.connect-title{
 display:block;
-padding:20px;
-text-align: center;
-font-family: 'News Cycle', sans-serif;
-background: white;
+padding:10px;
+margin-top: 5px;
+border-bottom: 4px dotted gray;
+font-size:20px;
 }
+
+.container {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.container1 {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    font-family:'News Cycle', sans-serif;
+    font-size:18px;
+}
+
+.content{
+  margin-top: 200px;
+  display:flex;
+  width:960px; 
+}
+
+.content1{
+    margin-top: 200px;
+    display:flex;
+    width:960px;
+    height:610px;
+} 
 
 .icons{
   margin-top:20px;
 }
 
-.about-contact{
-  display:box;
-  background-color:white;
-  padding:10px;
-  margin-top: 0px;
-  border-bottom: 4px solid gray;
-  font-size:20px;
-}
-
-.container {
-  border-radius: 10px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -146,16 +117,50 @@ input[type=submit] {
     cursor: pointer;
 }
 
-.container1 {
-    border-radius: 5px;
-    background-color: white;
-    padding: 20px;
-    font-family:'News Cycle', sans-serif;
-    font-size:18px;
+.main{
+  border-bottom:10px solid black;
+  height:900px;
 }
 
 .me{
-  margin-top: 10px;
+    margin-top: 10px;
+    padding:10px;
+}
+
+.name {
+display: block;
+background-color: white;
+padding:32px 16px;
+margin-right:650px;
+margin-top: 0px;
+margin-bottom: 0px;
+width:20%;
+border: 5px dotted silver;
+background-color:white;
+text-align:center;
+font-family: 'News Cycle', sans-serif;
+font-size: 30px;
+}
+
+.nav-wrapper{
+  display:flex;
+  justify-content: flex-end;
+  padding: 50px;
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  z-index:99999;
+  background: white;
+  border-bottom: 8px double gray;
+  }
+ 
+.page-end{
+display:block;
+padding:20px;
+text-align: center;
+font-family: 'News Cycle', sans-serif;
+background: white;
 }
 
 .p1r{
@@ -164,7 +169,6 @@ input[type=submit] {
   left:15px;
   width: 300px;
   height: 20px;
-
 } 
 
 .p1a{
@@ -180,16 +184,14 @@ input[type=submit] {
   text-align: center;
   padding:3px;
   opacity: .7;
-
-
 }
+
 .p2r{
   position:relative;
   top:-10px;
   left:245px;
   width: 300px;
   height: 20px;
-
 } 
 
 .p2a{
@@ -205,17 +207,14 @@ input[type=submit] {
   text-align: center;
   padding:3px;
   opacity: .7;
-
-
-
 }
+
 .p3r{
   position:relative;
   top:124px;
   left:15px;
   width: 300px;
   height: 20px;
-
 } 
 
 .p3a{
@@ -231,17 +230,14 @@ input[type=submit] {
   text-align: center;
   padding:3px;
   opacity: .7;
-
-
-
 }
+
 .p4r{
   position:relative;
   top:102px;
   left:245px;
   width: 300px;
   height: 20px;
-
 } 
 
 .p4a{
@@ -257,17 +253,14 @@ input[type=submit] {
   text-align: center;
   padding:3px;
   opacity: .7;
-
-
-
 }
+
 .p5r{
   position:relative;
   top:240px;
   left:15px;
   width: 300px;
   height: 20px;
-
 } 
 
 .p5a{
@@ -283,5 +276,11 @@ input[type=submit] {
   text-align: center;
   padding:3px;
   opacity: .7;
+}
 
+.profile-pic{
+  padding: 20px;
+  float: left;
+  margin-top: 15px;
+  margin-right: 10px;
 }
