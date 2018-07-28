@@ -90,7 +90,7 @@ font-size:20px;
     margin-top: 200px;
     display:flex;
     width:960px;
-    height:610px;
+    height:1200px;
 } 
 
 .icons{
@@ -119,7 +119,7 @@ input[type=submit] {
 
 .main{
   border-bottom:10px solid black;
-  height:900px;
+  height:1300px;
 }
 
 .me{
@@ -284,7 +284,55 @@ background: white;
   padding:3px;
   opacity: .7;
 }
-
+.p7r{
+  position:relative;
+  top:355px;
+  left:15px;
+  width: 300px;
+  height: 20px;
+} 
+.p8r{
+  position:relative;
+  top:335px;
+  left:245px;
+  width: 300px;
+  height: 20px;
+} 
+.p9r{
+  position:relative;
+  top:470px;
+  left:15px;
+  width: 300px;
+  height: 20px;
+}
+.p10r{
+  position:relative;
+  top:450px;
+  left:245px;
+  width: 300px;
+  height: 20px;
+}
+.p11r{
+  position:relative;
+  top:585px;
+  left:15px;
+  width: 300px;
+  height: 20px;
+}
+.p12r{
+  position:relative;
+  top:565px;
+  left:245px;
+  width: 300px;
+  height: 20px;
+}
+.p13r{
+  position:relative;
+  top:695px;
+  left:15px;
+  width: 300px;
+  height: 20px;
+}
 .profile-pic{
   padding: 20px;
   float: left;
